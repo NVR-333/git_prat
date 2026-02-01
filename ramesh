@@ -1,0 +1,21 @@
+public class Bicycle {
+    // field (attribute) of the class
+    int gear = 5;
+
+    // method
+    void braking() {
+        System.out.println("Braking applied.");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        // Create an object of the Bicycle class
+        Bicycle sportsBicycle = new Bicycle();
+
+        // Access the field and method using the object
+        System.out.println("Bicycle gear level: " + sportsBicycle.gear);
+        sportsBicycle.braking();
+    }
+}
+
