@@ -1,0 +1,16 @@
+-- Create a table
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    salary DECIMAL(10, 2),
+    hire_date DATE
+);
+
+-- Insert records
+INSERT INTO employees (emp_id, first_name, last_name, salary, hire_date)
+VALUES (1, 'John', 'Doe', 60000.00, '2023-01-15');
+
+INSERT INTO employees (emp_id, first_name, last_name, salary, hire_date)
+VALUES (2, 'Jane', 'Smith', 75000.00, '2022-03-10');
+
